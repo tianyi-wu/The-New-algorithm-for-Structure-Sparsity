@@ -1,0 +1,15 @@
+
+Required Dependencies:
+Numpy
+Scipy
+Cython
+
+Building:
+For performance, the inner loop is written using cython. It needs to be compiled before use. The command is:
+python setup.py build_ext --inplace
+
+Running:
+For a simple test on a synthetic test problem, run:
+python test_scale_free.py
+
+
